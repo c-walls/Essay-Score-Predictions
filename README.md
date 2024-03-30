@@ -15,7 +15,7 @@ The dataset includes typing event logs and essay scores from 2471 participants, 
 - `word_count`: The count of words in the essay at the time of event completion.
 - `score`: The score assigned to the essay, used as the dependent variable.
 
-## Analysis Components
+## Data Analysis
 
 The analysis consists of several stages:
 
@@ -38,4 +38,8 @@ The analysis consists of several stages:
 
 ## Predictive Models
 
-Several predictive models were developed to estimate essay scores from typing behavior...
+I developed several predictive models to estimate essay scores of the participants based on their keystroke data.
+
+- Random Forest using hyperparameter tuning (RMSE: )
+- LightGBM using cross validation and feature selection (RMSE: )
+- LightGBM using cross validation, feature selection, and a custom essay reconstructor algorithm (RMSE: )
