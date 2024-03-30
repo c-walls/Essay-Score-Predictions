@@ -42,4 +42,4 @@ I developed several predictive models to estimate essay scores of the participan
 
 - Random Forest using hyperparameter tuning (RMSE: )
 - LightGBM using cross validation and feature selection (RMSE: )
-- LightGBM using cross validation, feature selection, and a custom essay reconstructor algorithm (RMSE: )
+- LightGBM using cross validation, feature selection, and a custom essay reconstructor algorithm with related features (RMSE: )
