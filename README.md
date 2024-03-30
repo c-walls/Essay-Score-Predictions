@@ -38,7 +38,7 @@ The analysis consists of several stages:
 
 ## Predictive Models
 
-I developed several predictive models to estimate essay scores of the participants based on their keystroke data.
+I developed several predictive models to estimate essay scores of the participants based on their keystroke data. All models were evaluated based on the RMSE of the predictions that they generated. A few of my best models are listed below and have been included in this repository:
 
 - Random Forest using hyperparameter tuning (RMSE: )
 - LightGBM using cross validation and feature selection (RMSE: )
