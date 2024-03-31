@@ -41,7 +41,7 @@ The analysis consists of several stages:
 I developed several predictive models to estimate essay scores of the participants based on their keystroke data. All models were evaluated based on the RMSE of the predictions that they generated. A few of my best models are listed below and have been included in this repository:
 
 - LightGBM using cross validation and feature selection (RMSE: **0.613** on the Kaggle Leaderboard test set / **0.639** on cross-validation)
-- LightGBM using cross validation, feature selection, and a custom essay reconstructor algorithm with related features (RMSE: **0.615** on cross-validation)
+- LightGBM using cross validation, feature selection, and a custom essay reconstructor function with related features (RMSE: **0.615** on cross-validation)
 - Random Forest using hyperparameter tuning (RMSE: **0.633** on the Kaggle Leaderboard test set)
 
 The winning submission for this Kaggle competition had a 0.559 RMSE. Many of the top leaderboard teams utilized a custom essay reconstructor function similar to the one that I built for my LGBM_CV+FS+EssayReconstructor.ipynb model. While this essay reconstructor function and its corresponding features significantly improved my cross-validation RMSE, It caused an unknown error on the leaderboard test set and I ran out of time before resolving the issue. Other techniques used by top scoring teams, which I plan to use in the future, include ensembling, TF-IDF vectors to quantify the significance of certain words within the reconstructed essays, and the inclusion of external data 
