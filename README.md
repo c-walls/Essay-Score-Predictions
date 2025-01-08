@@ -1,6 +1,6 @@
 # Essay-Score-Predictions
 
-This repository contains a comprehensive data analysis report, visualizations, and predictive models developed for a Kaggle competition. The goal of the analysis was to understand the correlation between typing behavior and writing quality, using a dataset compiled by Vanderbilt University's Learning Agency Lab.
+This repository contains the data analysis report, visualizations, and predictive models developed for a [Kaggle competition](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality/overview) to predict essay scores from blind keylogger data. The goal of the data analysis was to understand the correlation between typing behavior and writing quality. To do this, a dataset of about 5000 essay logs were used that were compiled by Vanderbilt University's Learning Agency Lab and provided as part of the referenced competition.
 
 ## Dataset Overview
 
@@ -38,7 +38,7 @@ The analysis consists of several stages:
 
 ## Predictive Models
 
-I developed several predictive models to estimate essay scores of the participants based on their keystroke data. All models were evaluated based on the RMSE of the predictions that they generated. A few of my best models are listed below and have been included in this repository:
+Several predictive models were developed to estimate essay scores of the participants based on their keystroke data. All models were evaluated based on the RMSE of the predictions that they generated. A few of my best models are listed below and have been included in this repository:
 
 - LightGBM using cross validation and feature selection (RMSE: **0.613** on the Kaggle Leaderboard test set / **0.639** on cross-validation)
 - LightGBM using cross validation, feature selection, and a custom essay reconstructor function with related features (RMSE: **0.615** on cross-validation)
